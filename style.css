@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Karla:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+}
+
+.top {
+    height: 190px;
+    padding: 30px;
+    border-radius: 5px 5px 0 0;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 22.5px;
+    margin-bottom: 15px;
+    color: #4ABEBD;
+}
+
+.sub {
+    font-family: 'Karla';
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: hsl(71, 73%, 54%);
+}
+
+.txt1 {
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: hsl(218, 22%, 67%);
+}
+
+.bottom {
+    display: flex;
+    height: 230px;
+}
+
+.block2 {
+    width: 50%;
+    padding: 30px;
+    border-radius: 0 0 0 5px;
+    background-color: #2BB3B1;
+}
+
+.block2 h2 {
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.block2 span {
+    font-family: 'Karla';
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+}
+
+strong {
+    font-size: 30px;
+    margin: 0 8px 0 0 ;
+}
+
+.txt2 {
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    margin: 8px 0 25px 0;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    box-shadow: 1px 1px 5px hsla(0, 0%, 13%, 0.63);
+    cursor: pointer;
+}
+
+.block3 {
+    width: 50%;
+    padding: 30px;
+    border-radius: 0 0 5px 0;
+    background-color: #4ABEBD;
+}
+
+.block3 h2 {
+    font-family: 'Karla';
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.txt3 {
+    font-family: 'Karla';
+    font-weight: 100;
+    font-size: 15px;
+    text-align: left;
+    color: #ffffff;
+}
